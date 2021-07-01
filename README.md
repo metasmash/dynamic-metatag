@@ -4,6 +4,9 @@ Install:
 
 `npm i`
 
+Start:
+
+`npm run build`
 `node server.js`
 
 and go to http://localhost:9090/?model=helloWorld
