@@ -40,7 +40,7 @@ app.get("/", (req, res) => {
 //  });
 //});
 //
-//app.use(express.static(path.resolve(__dirname, "./build")))
+app.use(express.static(path.resolve(__dirname, "./build")))
 
 app.listen(PORT, () => {
   console.log(`Server is listening on port ${PORT}`)
